@@ -1,0 +1,11 @@
+lang: gneric
+deploy:
+        provider: pages
+        skip_cleanup: true
+        github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+        local_dir: builded
+        target_branch: master
+        fqdn: rasooll.com
+        repo: rasooll/rasooll.com
+        on:
+                branch: masteri
