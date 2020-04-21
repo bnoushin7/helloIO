@@ -9,6 +9,9 @@ Welcome to sphinx-example's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   
+   summary
+   code
 
 
 
